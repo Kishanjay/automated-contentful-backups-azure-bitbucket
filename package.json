@@ -1,0 +1,23 @@
+{
+  "name": "automated-contentful-backups-azure-bitbucket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishanjay/automated-contentful-backups-azure-bitbucket.git"
+  },
+  "author": "Kishan Nirghin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kishanjay/automated-contentful-backups-azure-bitbucket/issues"
+  },
+  "homepage": "https://github.com/Kishanjay/automated-contentful-backups-azure-bitbucket#readme",
+  "dependencies": {
+    "@azure/storage-blob": "^12.4.0",
+    "contentful-export": "^7.11.3"
+  }
+}

@@ -1,0 +1,10 @@
+pipelines:
+  custom:
+    backup:
+      - step:
+          image: circleci/node:12
+          name: do-contentful-backup
+          script:
+            - yarn
+            - node script.js
+        
